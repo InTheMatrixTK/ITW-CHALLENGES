@@ -5,14 +5,14 @@
         <title>Sthembiso Khumalo Resume</title>
         <h1>STHEMBISO KHUMALO RESUME</h1>
         <p>An introductory personal statement</p>
-        <aside>
-        <img src="image-directory/Biz Profile Picture.jpg" alt="Profile Image"width="350"height="350">
-        </aside>
-        <link rel="icon" type="image/icon" href="image-directory/Biz Profile Picture.jpg"
+        <link rel="icon" type="my-image-directory" href="my-image-directory/Biz Profile Picture.jpg"
     </header>
     <body>
         <section>
-            <nav>
+        <aside>
+        <img src="my-image-directory/Biz Profile Picture.jpg" alt="Profile Image"width="350"height="350">
+        </aside>
+        <nav>
             <aside>
             <a href="#Education">Education</a>
             <br>
