@@ -14,7 +14,7 @@ img {display: block;
     margin-right: auto;
     width: 15%;
     height: 15%;
-    border-radius: 60%;
+    border-radius: 60%
     }
     title {display: block;
         margin-left: auto;
@@ -29,7 +29,7 @@ body {
     height: 400;
     background-color:#3b4552;
     padding: 20px;
-}
+   }
 h2 {color:#051c38;
  }
 body {
