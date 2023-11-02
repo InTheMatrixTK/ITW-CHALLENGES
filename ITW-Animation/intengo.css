@@ -1,0 +1,33 @@
+img {
+height: 10%;
+width: 10%;
+margin-top: 10px;
+margin-left: 10px;
+}
+img:hover {
+transform: rotate(300deg)
+}
+
+@keyframes img {
+  from {transform: translateX(-100px);
+    border-radius: 50%;
+  }
+  to {transform: translateX(-1px);
+     }
+}
+img { 
+  animation-name: img;
+  animation-duration: 2s;
+  animation-timing-function:ease;
+  animation-delay: 0s;
+  animation-iteration-count: 3;
+  animation-direction:alternate-reverse;
+    }
+
+  
+
+
+
+
+
+}
