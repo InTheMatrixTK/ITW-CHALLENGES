@@ -79,3 +79,12 @@ h2 {
     background-color: #3b4552;
     flood-opacity: 1px;
 }
+.linked {
+    width: 5%;
+	height: 15%;
+	}
+.linked {
+    filter: hue-rotate(250deg);
+}
+
+
