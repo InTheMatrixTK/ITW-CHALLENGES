@@ -10,10 +10,10 @@
         <header>
           <div class="banner-container">
             <picture>
-                <source srcset="my-image-directory/Biz Profile small.jpg"media="max:width:425px">
-                <source srcset="my-image-directory/Biz Profile med.jpg"media="max:width:900px">
-                <img src="my-image-directory/Biz Profile large.jpg" alt="Profile Image">
-            </picture>
+                <source media="(max-width: 650px)" srcset="my-image-directory/small.jpg">
+                <source media="(max-width: 1000px)" srcset="my-image-directory/med.jpg">
+                <img src="my-image-directory/Biz Profile large.jpg">
+              </picture>
             <h1>STHEMBISO KHUMALO</h1>
             <h4>An introductory personal statement</h4>
         </div>
@@ -22,19 +22,18 @@
             <link rel="stylesheet" href="./stylesheet.css">
             </div>
             <aside>
-            <nav>
-            <div class="container">
-            <h2>Menu</h2>
-            <a href="#Education">Education</a></span>
+            <nav class="navbar">
+                        <h2>Menu</h2>
+            <button><a href="#Education">Education</a></span></button>
             <br>
             <br>
-            <a href="#Experience">Experience</a></span>
+            <button><a href="#Experience">Experience</a></span></button>
             <br>
             <br>
-            <a href="#Skills">Skills</a></span>
+            <button><a href="#Skills">Skills</a></span></button>
             <br>
             <br>
-            <a href="#Contact Details">Contact Details</a></span>
+            <button><a href="#Contact Details">Contact Details</a></span></button>
             </div>
             </nav>
              </aside>
@@ -69,7 +68,9 @@
         </article>
         </section>
         <footer>
+            <div class="contact-container">
             <h2 id="Contact Details">Contact Details</h2>
+            </div>
             <form action="https://formsubmit.co/stkhumalo@rocketmail.com" method="POST">
                 <label for="Name">Name</label>
                 <input type="text" name="Name"required>
