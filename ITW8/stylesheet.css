@@ -9,7 +9,7 @@ title {
 	margin-right: auto;
 }
 body {
-	background-color: #c0c3ca;
+	background-image: linear-gradient(to right, lightgrey , lightblue);
 	border-color: black;
 	border-style: double;
 	font-size: 14px;
@@ -92,6 +92,7 @@ button:hover {
 	text-align: center;
 	font-size: 130%;
 	padding: 0.5%;
+	position: sticky;
 }
 .nav-link {
 	text-decoration: none;
@@ -161,7 +162,7 @@ h1 {
 		margin: 1rem 0vw;
 		padding: 7px;
 	}
-    body {
+	body {
 		background-color: red;
 	}
 }
